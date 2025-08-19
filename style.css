@@ -120,7 +120,7 @@ h1 {
 }
 @media (min-width:64em) {
     .foto {
-        max-width: 15rem;
+        max-width: 12rem;
     }
 
     .container {
