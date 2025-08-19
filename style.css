@@ -94,15 +94,21 @@ h1 {
     font-size:1.125em;
     color:white;
 }
-@media (max-width:30em) {
+@media (min-width:48em) and (max-width:64em) {
+
     .foto {
-        width:15em;
-        height:15em;
+        max-width: 18rem;
     }
+
+    .container {
+        max-width: 28rem;
+    }
+
     body {
-        font-size:1em;
+        font-size: 1.125rem;
     }
+
     .container i {
-        font-size:1em;
+        font-size: 1.125rem;
     }
 }
