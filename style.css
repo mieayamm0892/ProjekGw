@@ -9,7 +9,7 @@ body {
 }
 .foto {
     width:100%;
-    max-width:18em;
+    max-width:16em;
     border-radius:15em;
     margin:0 auto;
     margin-bottom:2em   ;
@@ -94,6 +94,12 @@ h1 {
     font-size:1.125em;
     color:white;
 }
+
+@media (max-width:30em) {
+    .foto { width:15em; height:15em; }
+    body { font-size:1em; }
+    .container i { font-size:1em; }
+}
 @media (min-width:48em) and (max-width:64em) {
 
     .foto {
@@ -110,5 +116,18 @@ h1 {
 
     .container i {
         font-size: 1.125rem;
+    }
+}
+@media (min-width:64em) {
+    .foto {
+        max-width: 15rem;
+    }
+
+    .container {
+        max-width: 25rem;
+    }
+
+    body {
+        font-size: 1rem;
     }
 }
