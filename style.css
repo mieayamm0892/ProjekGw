@@ -124,9 +124,8 @@ h1 {
     }
     .container {
         max-width: 23rem;
-        padding: min(0.67em, 0.55em);
     } 
-    h1 {
+    h1,p {
         font-size: 1rem;
     }
 }
